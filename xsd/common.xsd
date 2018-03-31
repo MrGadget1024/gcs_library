@@ -143,7 +143,7 @@
 				<xs:extension base="xs:unsignedInt">
 					<xs:attribute name="has" use="required" type="YesNo" />
 					<xs:attribute name="which" type="xs:string" use="required" />
-					<xs:attribute name="compare" type="CompareType" use="required" />
+					<xs:attribute name="compare" type="xs:string" use="required" />
 					<xs:attribute name="combined_with" type="xs:string" />
 				</xs:extension>
 			</xs:simpleContent>
@@ -155,7 +155,7 @@
 			<xs:simpleContent>
 				<xs:extension base="xs:string">
 					<xs:attribute name="has" use="required" type="YesNo" />
-					<xs:attribute name="compare" type="CompareType" use="required" />
+					<xs:attribute name="compare" type="xs:string" use="required" />
 				</xs:extension>
 			</xs:simpleContent>
 		</xs:complexType>
@@ -275,7 +275,7 @@
 		</xs:complexType>
 	</xs:element>
 
-	<xs:simpleType name="CategoryName">
+	<!--<xs:simpleType name="CategoryName">
 		<xs:restriction base="xs:string">
 			<xs:enumeration value="Accessories"/>
 			<xs:enumeration value="Accoutrements"/>
@@ -616,17 +616,17 @@
 			<xs:enumeration value="Writing"/>
 			<xs:enumeration value="Yellow Goblin Magic"/>
 		</xs:restriction>
-	</xs:simpleType>
+	</xs:simpleType>-->
 
 	<xs:complexType name="CollegeType">
 		<xs:simpleContent>
-			<xs:extension base="CollegeName">
-				<xs:attribute name="compare" type="CompareType" />
+			<xs:extension base="xs:string">
+				<xs:attribute name="compare" type="xs:string" />
 			</xs:extension>
 		</xs:simpleContent>
 	</xs:complexType>
 
-	<xs:simpleType name="CollegeName">
+	<!--<xs:simpleType name="CollegeName">
 		<xs:restriction base="xs:string">
 			<xs:enumeration value="Air" />
 			<xs:enumeration value="Air/Earth" />
@@ -748,12 +748,12 @@
 			<xs:enumeration value="Weapon Enchantment" />
 			<xs:enumeration value="Yellow Goblin Magic" />
 		</xs:restriction>
-	</xs:simpleType>
+	</xs:simpleType>-->
 
 	<xs:complexType name="StringWithCompareAttribute">
 		<xs:simpleContent>
 			<xs:extension base="xs:string">
-				<xs:attribute name="compare" type="CompareType" />
+				<xs:attribute name="compare" type="xs:string" />
 			</xs:extension>
 		</xs:simpleContent>
 	</xs:complexType>
@@ -761,7 +761,7 @@
 	<xs:complexType name="DecimalWithCompareAttribute">
 		<xs:simpleContent>
 			<xs:extension base="xs:decimal">
-				<xs:attribute name="compare" type="CompareType" />
+				<xs:attribute name="compare" type="xs:string" />
 			</xs:extension>
 		</xs:simpleContent>
 	</xs:complexType>
@@ -769,12 +769,12 @@
 	<xs:complexType name="IntegerWithCompareAttribute">
 		<xs:simpleContent>
 			<xs:extension base="xs:integer">
-				<xs:attribute name="compare" type="CompareType" />
+				<xs:attribute name="compare" type="xs:string" />
 			</xs:extension>
 		</xs:simpleContent>
 	</xs:complexType>
 
-	<xs:simpleType name="CompareType">
+	<!--<xs:simpleType name="CompareType">
 		<xs:restriction base="xs:string">
 			<xs:enumeration value="is"/>
 			<xs:enumeration value="is not"/>
@@ -786,5 +786,5 @@
 			<xs:enumeration value="contains"/>
 			<xs:enumeration value="does not contain"/>
 		</xs:restriction>
-	</xs:simpleType>
+	</xs:simpleType>-->
 </xs:schema>
