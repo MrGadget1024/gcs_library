@@ -8,16 +8,14 @@
 				<xs:element ref="advantage_container" />
 				<xs:element ref="advantage" />
 			</xs:choice>
-			<!--<xs:attribute name="unique_id" type="xs:string" use="required" />-->
-			<xs:attribute name="id" type="xs:string" />
-			<xs:attribute name="unique_id" type="xs:string" />
-			<xs:attribute name="version" type="xs:unsignedShort" />
+			<xs:attribute name="unique_id" type="xs:string" use="optional" />
+			<xs:attribute name="version" type="xs:unsignedShort" use="optional" />
 		</xs:complexType>
 	</xs:element>
 
 	<xs:element name="advantage_container">
 		<xs:complexType>
-			<xs:choice maxOccurs="unbounded">
+			<xs:choice minOccurs="0" maxOccurs="unbounded">
 				<xs:element ref="categories" />
 				<xs:element ref="advantage_container" />
 				<xs:element ref="advantage" />
@@ -27,14 +25,14 @@
 				<xs:element name="notes" type="StringWithCompareAttribute" />
 			</xs:choice>
 			<xs:attribute name="version" type="xs:unsignedShort" use="required" />
-			<xs:attribute name="open" use="required" type="YesNo" />
-			<xs:attribute name="type" type="CostType" />
+			<xs:attribute name="open" type="xs:string" use="required" />
+			<xs:attribute name="type" type="xs:string" use="optional" />
 		</xs:complexType>
 	</xs:element>
 
 	<xs:element name="advantage">
 		<xs:complexType>
-			<xs:choice maxOccurs="unbounded">
+			<xs:choice minOccurs="0" maxOccurs="unbounded">
 				<xs:element ref="categories" />
 				<xs:element ref="prereq_list" />
 				<xs:element ref="dr_bonus" />
@@ -56,7 +54,7 @@
 				<xs:element name="notes" type="StringWithCompareAttribute" />
 			</xs:choice>
 			<xs:attribute name="version" type="xs:unsignedShort" use="required" />
-			<xs:attribute name="round_down" type="xs:string" />
+			<xs:attribute name="round_down" type="xs:string" use="optional" />
 		</xs:complexType>
 	</xs:element>
 
@@ -64,7 +62,7 @@
 		<xs:complexType>
 			<xs:simpleContent>
 				<xs:extension base="xs:unsignedShort">
-					<xs:attribute name="adj" type="xs:string" />
+					<xs:attribute name="adj" type="xs:string" use="optional" />
 				</xs:extension>
 			</xs:simpleContent>
 		</xs:complexType>
