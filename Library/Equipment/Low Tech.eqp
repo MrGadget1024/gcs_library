@@ -386,46 +386,26 @@
 			<block>No</block>
 			<default>
 				<type>DX</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Shortsword</name>
-				<modifier>0</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Broadsword</name>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Force Sword</name>
 				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Jitte/Sai</name>
-				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
 				<name>Knife</name>
-				<modifier>-4</modifier>
+				<modifier>0</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Saber</name>
-				<modifier>-4</modifier>
+				<name>Force Sword</name>
+				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Smallsword</name>
-				<modifier>-4</modifier>
+				<name>Main-Gauche</name>
+				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Tonfa</name>
+				<name>Shortsword</name>
 				<modifier>-3</modifier>
 			</default>
 		</melee_weapon>
@@ -438,46 +418,26 @@
 			<block>No</block>
 			<default>
 				<type>DX</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Shortsword</name>
-				<modifier>0</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Broadsword</name>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Force Sword</name>
 				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Jitte/Sai</name>
-				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
 				<name>Knife</name>
-				<modifier>-4</modifier>
+				<modifier>0</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Saber</name>
-				<modifier>-4</modifier>
+				<name>Force Sword</name>
+				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Smallsword</name>
-				<modifier>-4</modifier>
+				<name>Main-Gauche</name>
+				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Tonfa</name>
+				<name>Shortsword</name>
 				<modifier>-3</modifier>
 			</default>
 		</melee_weapon>
@@ -1440,6 +1400,7 @@
 		<reference>LT73</reference>
 		<notes>Inflicts half the injury it delivered when yanked out</notes>
 		<categories>
+			<category>AmmoType:Arrow</category>
 			<category>Ammunition</category>
 		</categories>
 	</equipment>
@@ -2292,6 +2253,7 @@
 		<notes>Follow-up drug or poison attack if damage penetrates DR. Effects depend on the poison used; see Poisons (pp. LT128-130); Requires two hands to ready, but only one hand to attack</notes>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Dart</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -2303,6 +2265,7 @@
 		<weight>0.05 lb</weight>
 		<reference>LT76</reference>
 		<categories>
+			<category>AmmoType:Dart</category>
 			<category>Ammunition</category>
 		</categories>
 	</equipment>
@@ -2365,6 +2328,7 @@
 		<reference>LT73</reference>
 		<notes>Converts damage to crushing</notes>
 		<categories>
+			<category>AmmoType:Arrow</category>
 			<category>Ammunition</category>
 		</categories>
 	</equipment>
@@ -2801,6 +2765,7 @@
 		<reference>LT73</reference>
 		<notes>-1 Acc, subtracts five from both range multipliers; Converts damage to Cutting and inflicts half the injury it delivered when yanked out</notes>
 		<categories>
+			<category>AmmoType:Arrow</category>
 			<category>Ammunition</category>
 		</categories>
 	</equipment>
@@ -4812,6 +4777,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Bolt</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -4947,6 +4913,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Bolt</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -5271,6 +5238,7 @@
 		<reference>LT73</reference>
 		<notes>Converts damage to Cutting</notes>
 		<categories>
+			<category>AmmoType:Arrow</category>
 			<category>Ammunition</category>
 		</categories>
 	</equipment>
@@ -5302,46 +5270,26 @@
 			<block>No</block>
 			<default>
 				<type>DX</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Shortsword</name>
-				<modifier>0</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Broadsword</name>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Force Sword</name>
 				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Jitte/Sai</name>
-				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
 				<name>Knife</name>
-				<modifier>-4</modifier>
+				<modifier>0</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Saber</name>
-				<modifier>-4</modifier>
+				<name>Force Sword</name>
+				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Smallsword</name>
-				<modifier>-4</modifier>
+				<name>Main-Gauche</name>
+				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Tonfa</name>
+				<name>Shortsword</name>
 				<modifier>-3</modifier>
 			</default>
 		</melee_weapon>
@@ -5367,6 +5315,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Melee Weapon</category>
+			<category>Missile Weapon</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -5495,6 +5444,7 @@
 		<notes>Requires two hands to ready, but only one hand to attack.</notes>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Dart</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -5506,6 +5456,7 @@
 		<weight>0.05 lb</weight>
 		<reference>LT76</reference>
 		<categories>
+			<category>AmmoType:Dart</category>
 			<category>Ammunition</category>
 		</categories>
 	</equipment>
@@ -5531,7 +5482,7 @@
 		<melee_weapon>
 			<damage>thr+1 cut</damage>
 			<strength>5</strength>
-			<usage>Knife Thrust</usage>
+			<usage>Thrust - Knife</usage>
 			<reach>C</reach>
 			<parry>0</parry>
 			<block>No</block>
@@ -5563,7 +5514,7 @@
 		<melee_weapon>
 			<damage>thr+1 cut</damage>
 			<strength>5</strength>
-			<usage>Main-Gauche Thrust</usage>
+			<usage>Thrust - Main-Gauche</usage>
 			<reach>C</reach>
 			<parry>0F</parry>
 			<block>No</block>
@@ -7214,6 +7165,7 @@
 		<reference>LT73</reference>
 		<notes>-1 Acc, subtracts five from both range multipliers; Lighting requires Ready maneuver</notes>
 		<categories>
+			<category>AmmoType:Arrow</category>
 			<category>Ammunition</category>
 		</categories>
 	</equipment>
@@ -7227,6 +7179,7 @@
 		<reference>LT73</reference>
 		<notes>Convert damage to small piercing; fire damage is 1d-3 burn; -2 to hit, -1 Acc, subtracts five from both range multipliers; Lighting requires Ready maneuver</notes>
 		<categories>
+			<category>AmmoType:Arrow</category>
 			<category>Ammunition</category>
 		</categories>
 	</equipment>
@@ -7384,6 +7337,7 @@
 		<reference>LT73</reference>
 		<notes>Halve damage to 1/2D, no damage past 1/2D; Double range modifiers</notes>
 		<categories>
+			<category>AmmoType:Arrow</category>
 			<category>Ammunition</category>
 		</categories>
 	</equipment>
@@ -9185,6 +9139,7 @@
 		<notes>Steel crossbow (See LT78, Note 6)</notes>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Bolt</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -9458,6 +9413,7 @@
 			</default>
 		</ranged_weapon>
 		<categories>
+			<category>AmmoType:Javelin</category>
 			<category>Melee Weapon</category>
 		</categories>
 	</equipment>
@@ -9527,92 +9483,6 @@
 				<modifier>-2</modifier>
 			</default>
 		</ranged_weapon>
-		<categories>
-			<category>Melee Weapon</category>
-		</categories>
-	</equipment>
-	<equipment version="4">
-		<quantity>1</quantity>
-		<description>Jian</description>
-		<tech_level>3</tech_level>
-		<legality_class>4</legality_class>
-		<value>700</value>
-		<weight>3 lb</weight>
-		<reference>LT57</reference>
-		<melee_weapon>
-			<damage>sw cut</damage>
-			<strength>10</strength>
-			<usage>Swung</usage>
-			<reach>1</reach>
-			<parry>0F</parry>
-			<block>No</block>
-			<default>
-				<type>DX</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Rapier</name>
-				<modifier>0</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Broadsword</name>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Main-Gauche</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Saber</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Smallsword</name>
-				<modifier>-3</modifier>
-			</default>
-		</melee_weapon>
-		<melee_weapon>
-			<damage>thr+1 imp</damage>
-			<strength>10</strength>
-			<usage>Thrust</usage>
-			<reach>1,2</reach>
-			<parry>0F</parry>
-			<block>No</block>
-			<default>
-				<type>DX</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Rapier</name>
-				<modifier>0</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Broadsword</name>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Main-Gauche</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Saber</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Smallsword</name>
-				<modifier>-3</modifier>
-			</default>
-		</melee_weapon>
 		<categories>
 			<category>Melee Weapon</category>
 		</categories>
@@ -10300,46 +10170,26 @@
 			<block>No</block>
 			<default>
 				<type>DX</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Shortsword</name>
-				<modifier>0</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Broadsword</name>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Force Sword</name>
 				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Jitte/Sai</name>
-				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
 				<name>Knife</name>
-				<modifier>-4</modifier>
+				<modifier>0</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Saber</name>
-				<modifier>-4</modifier>
+				<name>Force Sword</name>
+				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Smallsword</name>
-				<modifier>-4</modifier>
+				<name>Main-Gauche</name>
+				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Tonfa</name>
+				<name>Shortsword</name>
 				<modifier>-3</modifier>
 			</default>
 		</melee_weapon>
@@ -10352,46 +10202,26 @@
 			<block>No</block>
 			<default>
 				<type>DX</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Shortsword</name>
-				<modifier>0</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Broadsword</name>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Force Sword</name>
 				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Jitte/Sai</name>
-				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
 				<name>Knife</name>
-				<modifier>-4</modifier>
+				<modifier>0</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Saber</name>
-				<modifier>-4</modifier>
+				<name>Force Sword</name>
+				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Smallsword</name>
-				<modifier>-4</modifier>
+				<name>Main-Gauche</name>
+				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Tonfa</name>
+				<name>Shortsword</name>
 				<modifier>-3</modifier>
 			</default>
 		</melee_weapon>
@@ -10517,10 +10347,10 @@
 		<reference>LT58</reference>
 		<melee_weapon>
 			<damage>thr+1 cut</damage>
-			<strength>7</strength>
-			<usage>Thrust</usage>
+			<strength>5</strength>
+			<usage>Thrust - Knife</usage>
 			<reach>C</reach>
-			<parry>0F</parry>
+			<parry>0</parry>
 			<block>No</block>
 			<default>
 				<type>DX</type>
@@ -10539,16 +10369,70 @@
 			<default>
 				<type>Skill</type>
 				<name>Main-Gauche</name>
-				<modifier>0</modifier>
+				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
 				<name>Shortsword</name>
 				<modifier>-3</modifier>
 			</default>
+		</melee_weapon>
+		<melee_weapon>
+			<damage>thr-1 imp</damage>
+			<strength>5</strength>
+			<usage>Thrust - Knife - Side blade</usage>
+			<reach>C</reach>
+			<parry>0</parry>
+			<block>No</block>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Knife</name>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Force Sword</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Main-Gauche</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shortsword</name>
+				<modifier>-3</modifier>
+			</default>
+		</melee_weapon>
+		<melee_weapon>
+			<damage>thr+1 cut</damage>
+			<strength>5</strength>
+			<usage>Thrust - Main-Gauche</usage>
+			<reach>C</reach>
+			<parry>0F</parry>
+			<block>No</block>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Main-Gauche</name>
+				<modifier>0</modifier>
+			</default>
 			<default>
 				<type>Skill</type>
 				<name>Jitte/Sai</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Knife</name>
 				<modifier>-4</modifier>
 			</default>
 			<default>
@@ -10570,23 +10454,13 @@
 		<melee_weapon>
 			<damage>thr-1 imp</damage>
 			<strength>5</strength>
-			<usage>Thrust - Side blade</usage>
+			<usage>Thrust - Main-Gauche - Side blade</usage>
 			<reach>C</reach>
 			<parry>0F</parry>
 			<block>No</block>
 			<default>
 				<type>DX</type>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Knife</name>
-				<modifier>0</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Force Sword</name>
-				<modifier>-3</modifier>
+				<modifier>-5</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
@@ -10595,12 +10469,12 @@
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Shortsword</name>
-				<modifier>-3</modifier>
+				<name>Jitte/Sai</name>
+				<modifier>-4</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Jitte/Sai</name>
+				<name>Knife</name>
 				<modifier>-4</modifier>
 			</default>
 			<default>
@@ -10683,51 +10557,31 @@
 			<block>No</block>
 			<default>
 				<type>DX</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Shortsword</name>
-				<modifier>0</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Broadsword</name>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Force Sword</name>
 				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Jitte/Sai</name>
-				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
 				<name>Knife</name>
-				<modifier>-4</modifier>
+				<modifier>0</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Saber</name>
-				<modifier>-4</modifier>
+				<name>Force Sword</name>
+				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Smallsword</name>
-				<modifier>-4</modifier>
+				<name>Main-Gauche</name>
+				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Tonfa</name>
+				<name>Shortsword</name>
 				<modifier>-3</modifier>
 			</default>
 		</melee_weapon>
 		<melee_weapon>
-			<damage>th-1 imp</damage>
+			<damage>thr-1 imp</damage>
 			<strength>7</strength>
 			<usage>Thrust</usage>
 			<reach>C</reach>
@@ -10735,46 +10589,26 @@
 			<block>No</block>
 			<default>
 				<type>DX</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Shortsword</name>
-				<modifier>0</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Broadsword</name>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Force Sword</name>
 				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Jitte/Sai</name>
-				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
 				<name>Knife</name>
-				<modifier>-4</modifier>
+				<modifier>0</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Saber</name>
-				<modifier>-4</modifier>
+				<name>Force Sword</name>
+				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Smallsword</name>
-				<modifier>-4</modifier>
+				<name>Main-Gauche</name>
+				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Tonfa</name>
+				<name>Shortsword</name>
 				<modifier>-3</modifier>
 			</default>
 		</melee_weapon>
@@ -11610,46 +11444,26 @@
 			<block>No</block>
 			<default>
 				<type>DX</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Shortsword</name>
-				<modifier>0</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Broadsword</name>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Force Sword</name>
 				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Jitte/Sai</name>
-				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
 				<name>Knife</name>
-				<modifier>-4</modifier>
+				<modifier>0</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Saber</name>
-				<modifier>-4</modifier>
+				<name>Force Sword</name>
+				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Smallsword</name>
-				<modifier>-4</modifier>
+				<name>Main-Gauche</name>
+				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Tonfa</name>
+				<name>Shortsword</name>
 				<modifier>-3</modifier>
 			</default>
 		</melee_weapon>
@@ -11662,46 +11476,26 @@
 			<block>No</block>
 			<default>
 				<type>DX</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Shortsword</name>
-				<modifier>0</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Broadsword</name>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Force Sword</name>
 				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Jitte/Sai</name>
-				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
 				<name>Knife</name>
-				<modifier>-4</modifier>
+				<modifier>0</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Saber</name>
-				<modifier>-4</modifier>
+				<name>Force Sword</name>
+				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Smallsword</name>
-				<modifier>-4</modifier>
+				<name>Main-Gauche</name>
+				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Tonfa</name>
+				<name>Shortsword</name>
 				<modifier>-3</modifier>
 			</default>
 		</melee_weapon>
@@ -11727,6 +11521,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Melee Weapon</category>
+			<category>Missile Weapon</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -12998,8 +12793,8 @@
 		<melee_weapon>
 			<damage>sw-1 cut</damage>
 			<strength>7</strength>
-			<usage>Swung - Shortsword</usage>
-			<reach>1</reach>
+			<usage>Swung</usage>
+			<reach>C,1</reach>
 			<parry>0</parry>
 			<block>No</block>
 			<default>
@@ -13008,8 +12803,8 @@
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Shortsword</name>
-				<modifier>-3</modifier>
+				<name>Knife</name>
+				<modifier>0</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
@@ -13018,12 +12813,96 @@
 			</default>
 			<default>
 				<type>Skill</type>
+				<name>Main Gauche</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shortsword</name>
+				<modifier>-3</modifier>
+			</default>
+		</melee_weapon>
+		<melee_weapon>
+			<damage>thr imp</damage>
+			<strength>7</strength>
+			<usage>Thrust</usage>
+			<reach>C,1</reach>
+			<parry>0</parry>
+			<block>No</block>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
 				<name>Knife</name>
 				<modifier>0</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Main-Gauche</name>
+				<name>Force Sword</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Main Gauche</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shortsword</name>
+				<modifier>-3</modifier>
+			</default>
+		</melee_weapon>
+		<melee_weapon>
+			<damage>sw-1 cut</damage>
+			<strength>7</strength>
+			<usage>Swung - Shortsword</usage>
+			<reach>1</reach>
+			<parry>0</parry>
+			<block>No</block>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shortsword</name>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Broadsword</name>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Force Sword</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Jitte/Sai</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Knife</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Saber</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Smallsword</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Tonfa</name>
 				<modifier>-3</modifier>
 			</default>
 		</melee_weapon>
@@ -13031,95 +12910,51 @@
 			<damage>thr imp</damage>
 			<strength>7</strength>
 			<usage>Thrust - Shortsword</usage>
-			<reach>C, 1</reach>
+			<reach>C,1</reach>
 			<parry>0</parry>
 			<block>No</block>
 			<default>
 				<type>DX</type>
-				<modifier>-4</modifier>
+				<modifier>-5</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
 				<name>Shortsword</name>
-				<modifier>-3</modifier>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Broadsword</name>
+				<modifier>-2</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
 				<name>Force Sword</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Jitte/Sai</name>
 				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
 				<name>Knife</name>
-				<modifier>0</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Main-Gauche</name>
-				<modifier>-3</modifier>
-			</default>
-		</melee_weapon>
-		<melee_weapon>
-			<damage>sw-1 cut</damage>
-			<strength>7</strength>
-			<usage>Swung - Knife</usage>
-			<reach>C, 1</reach>
-			<parry>0</parry>
-			<block>No</block>
-			<default>
-				<type>DX</type>
 				<modifier>-4</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Knife</name>
-				<modifier>0</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Force Sword</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Main Gauche</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Shortsword</name>
-				<modifier>-3</modifier>
-			</default>
-		</melee_weapon>
-		<melee_weapon>
-			<damage>thr imp</damage>
-			<strength>7</strength>
-			<usage>Thrust - Knife</usage>
-			<reach>C, 1</reach>
-			<parry>0</parry>
-			<block>No</block>
-			<default>
-				<type>DX</type>
+				<name>Saber</name>
 				<modifier>-4</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Knife</name>
-				<modifier>0</modifier>
+				<name>Smallsword</name>
+				<modifier>-4</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Force Sword</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Main Gauche</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Shortsword</name>
+				<name>Tonfa</name>
 				<modifier>-3</modifier>
 			</default>
 		</melee_weapon>
@@ -13365,6 +13200,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Arrow</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -13421,7 +13257,7 @@
 			<damage>thr+2 imp</damage>
 			<strength>10</strength>
 			<usage>Thrust - One Handed</usage>
-			<reach>1</reach>
+			<reach>1,2</reach>
 			<parry>0</parry>
 			<block>No</block>
 			<default>
@@ -13845,21 +13681,11 @@
 			<strength>6</strength>
 			<usage>Swung</usage>
 			<reach>C,1</reach>
-			<parry>0</parry>
+			<parry>0F</parry>
 			<block>No</block>
 			<default>
 				<type>DX</type>
 				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Knife</name>
-				<modifier>0</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Force Sword</name>
-				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
@@ -13868,12 +13694,12 @@
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Shortsword</name>
-				<modifier>-3</modifier>
+				<name>Jitte/Sai</name>
+				<modifier>-4</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Jitte/Sai</name>
+				<name>Knife</name>
 				<modifier>-4</modifier>
 			</default>
 			<default>
@@ -13896,6 +13722,80 @@
 			<damage>thr imp</damage>
 			<strength>6</strength>
 			<usage>Thrust</usage>
+			<reach>C,1</reach>
+			<parry>0F</parry>
+			<block>No</block>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Main-Gauche</name>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Jitte/Sai</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Knife</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Rapier</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Saber</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Smallsword</name>
+				<modifier>-3</modifier>
+			</default>
+		</melee_weapon>
+		<melee_weapon>
+			<damage>sw-3 cut</damage>
+			<strength>6</strength>
+			<usage>Swung - Knife</usage>
+			<reach>C,1</reach>
+			<parry>0</parry>
+			<block>No</block>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Knife</name>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Force Sword</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Main-Gauche</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shortsword</name>
+				<modifier>-3</modifier>
+			</default>
+		</melee_weapon>
+		<melee_weapon>
+			<damage>thr imp</damage>
+			<strength>6</strength>
+			<usage>Thrust - Knife</usage>
 			<reach>C</reach>
 			<parry>0</parry>
 			<block>No</block>
@@ -13916,31 +13816,11 @@
 			<default>
 				<type>Skill</type>
 				<name>Main-Gauche</name>
-				<modifier>0</modifier>
+				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
 				<name>Shortsword</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Jitte/Sai</name>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Rapier</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Saber</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Smallsword</name>
 				<modifier>-3</modifier>
 			</default>
 		</melee_weapon>
@@ -15570,6 +15450,7 @@
 		<notes>Requires two hands to ready, but only one hand to attack.</notes>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Bolt</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -15581,6 +15462,7 @@
 		<weight>0.06 lb</weight>
 		<reference>LT76</reference>
 		<categories>
+			<category>AmmoType:Bolt</category>
 			<category>Ammunition</category>
 		</categories>
 	</equipment>
@@ -16003,6 +15885,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Prodd</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -16014,6 +15897,7 @@
 		<weight>0.06 lb</weight>
 		<reference>LT76</reference>
 		<categories>
+			<category>AmmoType:Prodd</category>
 			<category>Ammunition</category>
 		</categories>
 	</equipment>
@@ -16287,7 +16171,7 @@
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Jitte/Sai</name>
+				<name>Knife</name>
 				<modifier>0</modifier>
 			</default>
 			<default>
@@ -16297,7 +16181,7 @@
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Maine-Gauche</name>
+				<name>Main-Gauche</name>
 				<modifier>-3</modifier>
 			</default>
 			<default>
@@ -16305,10 +16189,37 @@
 				<name>Shortsword</name>
 				<modifier>-3</modifier>
 			</default>
+		</melee_weapon>
+		<melee_weapon>
+			<damage>thr+1(0.5) imp</damage>
+			<strength>8</strength>
+			<usage>Thrust - Jitte/Sai</usage>
+			<reach>C,1</reach>
+			<parry>0</parry>
+			<block>No</block>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
 			<default>
 				<type>Skill</type>
-				<name>Knife</name>
+				<name>Jitte/Sai</name>
 				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Force Sword</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Main-Gauche</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shortsword</name>
+				<modifier>-3</modifier>
 			</default>
 		</melee_weapon>
 		<notes>Gets +2 to disarm when wielded with Jitte/Sai skill; see pp. B208, B401.</notes>
@@ -16731,6 +16642,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Arrow</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -16762,6 +16674,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Arrow</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -16793,6 +16706,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Bolt</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -16876,6 +16790,38 @@
 			</default>
 			<default>
 				<type>Skill</type>
+				<name>Knife</name>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Force Sword</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Main-Gauche</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shortsword</name>
+				<modifier>-3</modifier>
+			</default>
+		</melee_weapon>
+		<melee_weapon>
+			<damage>thr imp</damage>
+			<strength>6</strength>
+			<usage>Thrust - Main-Gauche</usage>
+			<reach>C</reach>
+			<parry>0F</parry>
+			<block>No</block>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
 				<name>Main-Gauche</name>
 				<modifier>0</modifier>
 			</default>
@@ -16887,7 +16833,7 @@
 			<default>
 				<type>Skill</type>
 				<name>Knife</name>
-				<modifier>0</modifier>
+				<modifier>-4</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
@@ -16903,21 +16849,6 @@
 				<type>Skill</type>
 				<name>Smallsword</name>
 				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Force Sword</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Shortsword</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Knife</name>
-				<modifier>0</modifier>
 			</default>
 		</melee_weapon>
 		<notes>Reduce penalty for targeting chinks in armor (p. B400) by -2.</notes>
@@ -17245,10 +17176,10 @@
 		<reference>LT61</reference>
 		<melee_weapon>
 			<damage>sw cr</damage>
-			<strength>6</strength>
+			<strength>7</strength>
 			<usage>Swing</usage>
 			<reach>1</reach>
-			<parry>0F</parry>
+			<parry>0</parry>
 			<block>No</block>
 			<default>
 				<type>DX</type>
@@ -17267,12 +17198,66 @@
 			<default>
 				<type>Skill</type>
 				<name>Main-Gauche</name>
-				<modifier>0</modifier>
+				<modifier>-4</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
 				<name>Shortsword</name>
 				<modifier>-3</modifier>
+			</default>
+		</melee_weapon>
+		<melee_weapon>
+			<damage>thr imp</damage>
+			<strength>7</strength>
+			<usage>Thrust</usage>
+			<reach>1</reach>
+			<parry>0</parry>
+			<block>No</block>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Jitte/Sai</name>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Force Sword</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Main-Gauche</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shortsword</name>
+				<modifier>-3</modifier>
+			</default>
+		</melee_weapon>
+		<melee_weapon>
+			<damage>sw cr</damage>
+			<strength>7</strength>
+			<usage>Swing - Main-Gauche</usage>
+			<reach>1</reach>
+			<parry>0F</parry>
+			<block>No</block>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Main-Gauche</name>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Jitte/Sai</name>
+				<modifier>-4</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
@@ -17298,7 +17283,7 @@
 		<melee_weapon>
 			<damage>thr imp</damage>
 			<strength>7</strength>
-			<usage>Thrust</usage>
+			<usage>Thrust - Main-Gauche</usage>
 			<reach>1</reach>
 			<parry>0F</parry>
 			<block>No</block>
@@ -17308,23 +17293,13 @@
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Jitte/Sai</name>
-				<modifier>0</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Force Sword</name>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
 				<name>Main-Gauche</name>
 				<modifier>0</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Shortsword</name>
-				<modifier>-3</modifier>
+				<name>Jitte/Sai</name>
+				<modifier>-4</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
@@ -17370,6 +17345,7 @@
 		<notes>Gets +2 to disarm when wielded with Jitte/Sai skill; see pp. B208, B401.</notes>
 		<categories>
 			<category>Melee Weapon</category>
+			<category>Missile Weapon</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -18383,7 +18359,7 @@
 			<damage>sw-1 cr</damage>
 			<strength>5</strength>
 			<usage>Swung</usage>
-			<reach>C, 1</reach>
+			<reach>C,1</reach>
 			<parry>-1</parry>
 			<block>No</block>
 			<default>
@@ -18484,11 +18460,6 @@
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Knife</name>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
 				<name>Saber</name>
 				<modifier>-4</modifier>
 			</default>
@@ -18536,6 +18507,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Arrow</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -19026,6 +18998,7 @@
 		<notes>Steel crossbow (See LT78, Note 6)</notes>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Bolt</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -19052,7 +19025,7 @@
 			<strength>5</strength>
 			<usage>Thrust</usage>
 			<reach>C</reach>
-			<parry>0F</parry>
+			<parry>0</parry>
 			<block>No</block>
 			<default>
 				<type>DX</type>
@@ -19071,16 +19044,38 @@
 			<default>
 				<type>Skill</type>
 				<name>Main-Gauche</name>
-				<modifier>0</modifier>
+				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
 				<name>Shortsword</name>
 				<modifier>-3</modifier>
 			</default>
+		</melee_weapon>
+		<melee_weapon>
+			<damage>thr+1 cut</damage>
+			<strength>5</strength>
+			<usage>Thrust - Main-Gauche</usage>
+			<reach>C</reach>
+			<parry>0F</parry>
+			<block>No</block>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Main-Gauche</name>
+				<modifier>0</modifier>
+			</default>
 			<default>
 				<type>Skill</type>
 				<name>Jitte/Sai</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Knife</name>
 				<modifier>-4</modifier>
 			</default>
 			<default>
@@ -19150,6 +19145,7 @@
 		<notes>Requires two hands to ready, but only one hand to attack.; unshaped rocks and stones suitable for slings, heavy slings, and stone-launching sticks can be found for free, but they&#8217;re less accurate: -1 to hit; Can fire stones (TL0) or lead bullets (TL2). Lead bullets give +1 damage and double range.</notes>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Sling</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -19161,6 +19157,7 @@
 		<weight>0.06 lb</weight>
 		<reference>LT76</reference>
 		<categories>
+			<category>AmmoType:Sling</category>
 			<category>Ammunition</category>
 		</categories>
 	</equipment>
@@ -19250,6 +19247,7 @@
 		<notes>Requires several Ready maneuvers to cock the bow before loading darts; use the standard cocking times for crossbows under Bows, Crossbows, and Rated ST (p. LT74).</notes>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Bolt</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -19261,6 +19259,7 @@
 		<weight>0.03 lb</weight>
 		<reference>LT76</reference>
 		<categories>
+			<category>AmmoType:Bolt</category>
 			<category>Ammunition</category>
 		</categories>
 	</equipment>
@@ -19436,98 +19435,58 @@
 			<block>No</block>
 			<default>
 				<type>DX</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Shortsword</name>
-				<modifier>0</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Broadsword</name>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Force Sword</name>
 				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Jitte/Sai</name>
-				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
 				<name>Knife</name>
-				<modifier>-4</modifier>
+				<modifier>0</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Saber</name>
-				<modifier>-4</modifier>
+				<name>Force Sword</name>
+				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Smallsword</name>
-				<modifier>-4</modifier>
+				<name>Main-Gauche</name>
+				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Tonfa</name>
+				<name>Shortsword</name>
 				<modifier>-3</modifier>
 			</default>
 		</melee_weapon>
 		<melee_weapon>
 			<damage>thr-1 imp</damage>
-			<strength>7</strength>
+			<strength>5</strength>
 			<usage>Thrust</usage>
 			<reach>C</reach>
 			<parry>-1</parry>
 			<block>No</block>
 			<default>
 				<type>DX</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Shortsword</name>
-				<modifier>0</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Broadsword</name>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Force Sword</name>
 				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Jitte/Sai</name>
-				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
 				<name>Knife</name>
-				<modifier>-4</modifier>
+				<modifier>0</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Saber</name>
-				<modifier>-4</modifier>
+				<name>Force Sword</name>
+				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Smallsword</name>
-				<modifier>-4</modifier>
+				<name>Main-Gauche</name>
+				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Tonfa</name>
+				<name>Shortsword</name>
 				<modifier>-3</modifier>
 			</default>
 		</melee_weapon>
@@ -19553,6 +19512,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Melee Weapon</category>
+			<category>Missile Weapon</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -19729,7 +19689,8 @@
 			</default>
 		</ranged_weapon>
 		<categories>
-			<category>Melee Weapon/Missile Weapon</category>
+			<category>Melee Weapon</category>
+			<category>Missile Weapon</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -20471,6 +20432,7 @@
 		<notes>Unshaped rocks and stones suitable for slings, heavy slings, and stone-launching sticks can be found for free, but they&#8217;re less accurate: -1 to hit.; Can fire stones (TL0) or lead bullets (TL2). Lead bullets give +1 damage and double range.</notes>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Sling</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -20540,11 +20502,43 @@
 			<strength>5</strength>
 			<usage>Thrust</usage>
 			<reach>C</reach>
-			<parry>1</parry>
+			<parry>-1</parry>
 			<block>No</block>
 			<default>
 				<type>DX</type>
 				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Knife</name>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Force Sword</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Main-Gauche</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shortsword</name>
+				<modifier>-3</modifier>
+			</default>
+		</melee_weapon>
+		<melee_weapon>
+			<damage>thr-1 imp</damage>
+			<strength>5</strength>
+			<usage>Thrust - Main-Gauche</usage>
+			<reach>C</reach>
+			<parry>0F</parry>
+			<block>No</block>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
@@ -20574,21 +20568,6 @@
 			<default>
 				<type>Skill</type>
 				<name>Smallsword</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Knife</name>
-				<modifier>0</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Shortsword</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Force Sword</name>
 				<modifier>-3</modifier>
 			</default>
 		</melee_weapon>
@@ -20645,6 +20624,7 @@
 		<notes>Requires two hands to ready, but only one hand to attack; unshaped rocks and stones suitable for slings, heavy slings, and stone-launching sticks can be found for free, but they&#8217;re less accurate: -1 to hit.</notes>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Sling</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -20657,6 +20637,7 @@
 		<reference>LT77</reference>
 		<notes>Inflicts half the injury it delivered when yanked out</notes>
 		<categories>
+			<category>AmmoType:Sling</category>
 			<category>Ammunition</category>
 		</categories>
 	</equipment>
@@ -21853,7 +21834,7 @@
 			<damage>thr cr</damage>
 			<strength>7</strength>
 			<usage>Thrust</usage>
-			<reach>C, 1</reach>
+			<reach>C,1</reach>
 			<parry>0</parry>
 			<block>No</block>
 			<default>
@@ -23311,46 +23292,26 @@
 			<block>No</block>
 			<default>
 				<type>DX</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Shortsword</name>
-				<modifier>0</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Broadsword</name>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Force Sword</name>
 				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Jitte/Sai</name>
-				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
 				<name>Knife</name>
-				<modifier>-4</modifier>
+				<modifier>0</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Saber</name>
-				<modifier>-4</modifier>
+				<name>Force Sword</name>
+				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Smallsword</name>
-				<modifier>-4</modifier>
+				<name>Main-Gauche</name>
+				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Tonfa</name>
+				<name>Shortsword</name>
 				<modifier>-3</modifier>
 			</default>
 		</melee_weapon>
@@ -23376,6 +23337,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Melee Weapon</category>
+			<category>Missile Weapon</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -23415,5 +23377,1060 @@
 		<categories>
 			<category>Missile Weapon</category>
 		</categories>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Parrying Buckler</description>
+		<tech_level>0</tech_level>
+		<legality_class>4</legality_class>
+		<value>50</value>
+		<weight>8 lb</weight>
+		<reference>LT114</reference>
+		<melee_weapon>
+			<damage>thr cr</damage>
+			<strength>0</strength>
+			<usage>Shield Bash</usage>
+			<reach>1</reach>
+			<parry>No</parry>
+			<block>+1</block>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Buckler</specialization>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Shield</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Force Shield</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Guige</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</melee_weapon>
+		<categories>
+			<category>Shield</category>
+		</categories>
+		<attribute_bonus>
+			<attribute>dodge</attribute>
+			<amount>1</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>parry</attribute>
+			<amount>1</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>block</attribute>
+			<amount>1</amount>
+		</attribute_bonus>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Small Shield, Light</description>
+		<tech_level>0</tech_level>
+		<legality_class>4</legality_class>
+		<value>30</value>
+		<weight>3 lb</weight>
+		<reference>LT114</reference>
+		<melee_weapon>
+			<damage>thr cr</damage>
+			<strength>0</strength>
+			<usage>Shield Bash</usage>
+			<reach>1</reach>
+			<parry>No</parry>
+			<block>+0</block>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Shield</specialization>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Buckler</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Force Shield</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Guige</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</melee_weapon>
+		<categories>
+			<category>Shield</category>
+		</categories>
+		<attribute_bonus>
+			<attribute>dodge</attribute>
+			<amount>1</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>parry</attribute>
+			<amount>1</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>block</attribute>
+			<amount>1</amount>
+		</attribute_bonus>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Comanche Shield</description>
+		<tech_level>0</tech_level>
+		<legality_class>4</legality_class>
+		<value>100</value>
+		<weight>16 lb</weight>
+		<reference>LT114</reference>
+		<melee_weapon>
+			<damage>thr cr</damage>
+			<strength>0</strength>
+			<usage>Shield Bash</usage>
+			<reach>1</reach>
+			<parry>No</parry>
+			<block>+0</block>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Shield</specialization>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Buckler</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Force Shield</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Guige</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</melee_weapon>
+		<notes>Fragile (Combustible) (p. B136).</notes>
+		<categories>
+			<category>Shield</category>
+		</categories>
+		<attribute_bonus>
+			<attribute>dodge</attribute>
+			<amount>2</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>parry</attribute>
+			<amount>2</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>block</attribute>
+			<amount>2</amount>
+		</attribute_bonus>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Medium Shield, Light</description>
+		<tech_level>0</tech_level>
+		<legality_class>4</legality_class>
+		<value>45</value>
+		<weight>7 lb</weight>
+		<reference>LT114</reference>
+		<melee_weapon>
+			<damage>thr cr</damage>
+			<strength>0</strength>
+			<usage>Shield Bash</usage>
+			<reach>1</reach>
+			<parry>No</parry>
+			<block>+0</block>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Shield</specialization>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Buckler</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Force Shield</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Guige</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</melee_weapon>
+		<categories>
+			<category>Shield</category>
+		</categories>
+		<attribute_bonus>
+			<attribute>dodge</attribute>
+			<amount>2</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>parry</attribute>
+			<amount>2</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>block</attribute>
+			<amount>2</amount>
+		</attribute_bonus>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Large Shield, Light</description>
+		<tech_level>0</tech_level>
+		<legality_class>4</legality_class>
+		<value>68</value>
+		<weight>10 lb</weight>
+		<reference>LT114</reference>
+		<melee_weapon>
+			<damage>thr cr</damage>
+			<strength>0</strength>
+			<usage>Shield Bash</usage>
+			<reach>1</reach>
+			<parry>No</parry>
+			<block>+0</block>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Shield</specialization>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Buckler</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Force Shield</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Guige</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</melee_weapon>
+		<categories>
+			<category>Shield</category>
+		</categories>
+		<attribute_bonus>
+			<attribute>dodge</attribute>
+			<amount>3</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>parry</attribute>
+			<amount>3</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>block</attribute>
+			<amount>3</amount>
+		</attribute_bonus>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Mycenaean Shield</description>
+		<tech_level>0</tech_level>
+		<legality_class>4</legality_class>
+		<value>58</value>
+		<weight>9 lb</weight>
+		<reference>LT114</reference>
+		<melee_weapon>
+			<damage>thr cr</damage>
+			<strength>0</strength>
+			<usage>Shield Bash</usage>
+			<reach>1</reach>
+			<parry>No</parry>
+			<block>-3</block>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Guige</specialization>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Shield</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Buckler</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Force Shield</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</melee_weapon>
+		<categories>
+			<category>Shield</category>
+		</categories>
+		<attribute_bonus>
+			<attribute>dodge</attribute>
+			<amount>3</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>parry</attribute>
+			<amount>3</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>block</attribute>
+			<amount>3</amount>
+		</attribute_bonus>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Small Shield, Heavy</description>
+		<tech_level>1</tech_level>
+		<legality_class>4</legality_class>
+		<value>40</value>
+		<weight>6 lb</weight>
+		<reference>LT114</reference>
+		<melee_weapon>
+			<damage>thr cr</damage>
+			<strength>0</strength>
+			<usage>Shield Bash</usage>
+			<reach>1</reach>
+			<parry>No</parry>
+			<block>+0</block>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Shield</specialization>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Buckler</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Force Shield</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Guige</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</melee_weapon>
+		<categories>
+			<category>Shield</category>
+		</categories>
+		<attribute_bonus>
+			<attribute>dodge</attribute>
+			<amount>1</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>parry</attribute>
+			<amount>1</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>block</attribute>
+			<amount>1</amount>
+		</attribute_bonus>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Homeric Buckler, Medium</description>
+		<tech_level>1</tech_level>
+		<legality_class>4</legality_class>
+		<value>100</value>
+		<weight>16 lb</weight>
+		<reference>LT115</reference>
+		<melee_weapon>
+			<damage>thr cr</damage>
+			<strength>0</strength>
+			<usage>Shield Bash</usage>
+			<reach>1</reach>
+			<parry>No</parry>
+			<block>+0</block>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Buckler</specialization>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Shield</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Force Shield</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Guige</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</melee_weapon>
+		<categories>
+			<category>Shield</category>
+		</categories>
+		<attribute_bonus>
+			<attribute>dodge</attribute>
+			<amount>2</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>parry</attribute>
+			<amount>2</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>block</attribute>
+			<amount>2</amount>
+		</attribute_bonus>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Medium Shield, Heavy</description>
+		<tech_level>1</tech_level>
+		<legality_class>4</legality_class>
+		<value>60</value>
+		<weight>14 lb</weight>
+		<reference>LT114</reference>
+		<melee_weapon>
+			<damage>thr cr</damage>
+			<strength>0</strength>
+			<usage>Shield Bash</usage>
+			<reach>1</reach>
+			<parry>No</parry>
+			<block>+0</block>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Shield</specialization>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Buckler</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Force Shield</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Guige</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</melee_weapon>
+		<categories>
+			<category>Shield</category>
+		</categories>
+		<attribute_bonus>
+			<attribute>dodge</attribute>
+			<amount>2</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>parry</attribute>
+			<amount>2</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>block</attribute>
+			<amount>2</amount>
+		</attribute_bonus>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Homeric Buckler, Large</description>
+		<tech_level>1</tech_level>
+		<legality_class>4</legality_class>
+		<value>150</value>
+		<weight>20 lb</weight>
+		<reference>LT115</reference>
+		<melee_weapon>
+			<damage>thr cr</damage>
+			<strength>0</strength>
+			<usage>Shield Bash</usage>
+			<reach>1</reach>
+			<parry>No</parry>
+			<block>+0</block>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Buckler</specialization>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Shield</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Force Shield</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Guige</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</melee_weapon>
+		<categories>
+			<category>Shield</category>
+		</categories>
+		<attribute_bonus>
+			<attribute>dodge</attribute>
+			<amount>3</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>parry</attribute>
+			<amount>3</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>block</attribute>
+			<amount>3</amount>
+		</attribute_bonus>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Large Shield, Heavy</description>
+		<tech_level>1</tech_level>
+		<legality_class>4</legality_class>
+		<value>90</value>
+		<weight>20 lb</weight>
+		<reference>LT114</reference>
+		<melee_weapon>
+			<damage>thr cr</damage>
+			<strength>0</strength>
+			<usage>Shield Bash</usage>
+			<reach>1</reach>
+			<parry>No</parry>
+			<block>+0</block>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Shield</specialization>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Buckler</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Force Shield</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Guige</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</melee_weapon>
+		<categories>
+			<category>Shield</category>
+		</categories>
+		<attribute_bonus>
+			<attribute>dodge</attribute>
+			<amount>3</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>parry</attribute>
+			<amount>3</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>block</attribute>
+			<amount>3</amount>
+		</attribute_bonus>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Argive Shield</description>
+		<tech_level>2</tech_level>
+		<legality_class>4</legality_class>
+		<value>120</value>
+		<weight>15 lb</weight>
+		<reference>LT115</reference>
+		<melee_weapon>
+			<damage>thr cr</damage>
+			<strength>0</strength>
+			<usage>Shield Bash</usage>
+			<reach>1</reach>
+			<parry>No</parry>
+			<block>+0</block>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Shield</specialization>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Buckler</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Force Shield</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Guige</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</melee_weapon>
+		<notes>+1 DB when used in shield wall.</notes>
+		<categories>
+			<category>Shield</category>
+		</categories>
+		<attribute_bonus>
+			<attribute>dodge</attribute>
+			<amount>2</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>parry</attribute>
+			<amount>2</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>block</attribute>
+			<amount>2</amount>
+		</attribute_bonus>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Roman Scutum, Medium</description>
+		<tech_level>2</tech_level>
+		<legality_class>4</legality_class>
+		<value>140</value>
+		<weight>16 lb</weight>
+		<reference>LT115</reference>
+		<melee_weapon>
+			<damage>thr cr</damage>
+			<strength>0</strength>
+			<usage>Shield Bash</usage>
+			<reach>1</reach>
+			<parry>No</parry>
+			<block>+0</block>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Buckler</specialization>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Shield</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Force Shield</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Guige</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</melee_weapon>
+		<notes>Laminated wood (+20% HP).</notes>
+		<categories>
+			<category>Shield</category>
+		</categories>
+		<attribute_bonus>
+			<attribute>dodge</attribute>
+			<amount>2</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>parry</attribute>
+			<amount>2</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>block</attribute>
+			<amount>2</amount>
+		</attribute_bonus>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Roman Scutum, Large</description>
+		<tech_level>2</tech_level>
+		<legality_class>4</legality_class>
+		<value>200</value>
+		<weight>22 lb</weight>
+		<reference>LT115</reference>
+		<melee_weapon>
+			<damage>thr cr</damage>
+			<strength>0</strength>
+			<usage>Shield Bash</usage>
+			<reach>1</reach>
+			<parry>No</parry>
+			<block>+0</block>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Buckler</specialization>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Shield</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Force Shield</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Guige</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</melee_weapon>
+		<notes>Laminated wood (+20% HP).</notes>
+		<categories>
+			<category>Shield</category>
+		</categories>
+		<attribute_bonus>
+			<attribute>dodge</attribute>
+			<amount>3</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>parry</attribute>
+			<amount>3</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>block</attribute>
+			<amount>3</amount>
+		</attribute_bonus>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Dueling Buckler</description>
+		<tech_level>3</tech_level>
+		<legality_class>4</legality_class>
+		<value>25</value>
+		<weight>2 lb</weight>
+		<reference>LT116</reference>
+		<melee_weapon>
+			<damage>thr cr</damage>
+			<strength>0</strength>
+			<usage>Shield Bash</usage>
+			<reach>1</reach>
+			<parry>No</parry>
+			<block>+1</block>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Buckler</specialization>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Shield</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Force Shield</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Guige</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</melee_weapon>
+		<notes>DR 4 to the shield hand.</notes>
+		<categories>
+			<category>Shield</category>
+		</categories>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Heater Shield</description>
+		<tech_level>3</tech_level>
+		<legality_class>4</legality_class>
+		<value>75</value>
+		<weight>13 lb</weight>
+		<reference>LT116</reference>
+		<melee_weapon>
+			<damage>thr cr</damage>
+			<strength>0</strength>
+			<usage>Shield Bash</usage>
+			<reach>1</reach>
+			<parry>No</parry>
+			<block>+0</block>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Shield</specialization>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Buckler</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Force Shield</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Guige</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</melee_weapon>
+		<categories>
+			<category>Shield</category>
+		</categories>
+		<attribute_bonus>
+			<attribute>dodge</attribute>
+			<amount>2</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>parry</attribute>
+			<amount>2</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>block</attribute>
+			<amount>2</amount>
+		</attribute_bonus>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Kite Shield</description>
+		<tech_level>3</tech_level>
+		<legality_class>4</legality_class>
+		<value>120</value>
+		<weight>18 lb</weight>
+		<reference>LT116</reference>
+		<melee_weapon>
+			<damage>thr cr</damage>
+			<strength>0</strength>
+			<usage>Shield Bash</usage>
+			<reach>1</reach>
+			<parry>No</parry>
+			<block>+0</block>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Shield</specialization>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Buckler</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Force Shield</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Guige</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</melee_weapon>
+		<categories>
+			<category>Shield</category>
+		</categories>
+		<attribute_bonus>
+			<attribute>dodge</attribute>
+			<amount>3</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>parry</attribute>
+			<amount>3</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>block</attribute>
+			<amount>3</amount>
+		</attribute_bonus>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Dueling Long Shield</description>
+		<tech_level>4</tech_level>
+		<legality_class>4</legality_class>
+		<value>200</value>
+		<weight>16 lb</weight>
+		<reference>LT116</reference>
+		<melee_weapon>
+			<damage>thr cr</damage>
+			<strength>0</strength>
+			<usage>Shield Bash</usage>
+			<reach>1</reach>
+			<parry>No</parry>
+			<block>+0</block>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Staff</name>
+				<modifier>-4</modifier>
+			</default>
+		</melee_weapon>
+		<categories>
+			<category>Shield</category>
+		</categories>
+		<attribute_bonus>
+			<attribute>dodge</attribute>
+			<amount>3</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>parry</attribute>
+			<amount>3</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>block</attribute>
+			<amount>3</amount>
+		</attribute_bonus>
 	</equipment>
 </equipment_list>

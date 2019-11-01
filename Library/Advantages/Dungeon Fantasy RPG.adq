@@ -1814,6 +1814,12 @@
 		</categories>
 	</advantage>
 	<advantage version="2">
+		<name>Elven Gear</name>
+		<type>Physical</type>
+		<base_points>1</base_points>
+		<reference>DFA44</reference>
+	</advantage>
+	<advantage version="2">
 		<name>Empathy</name>
 		<type>Mental</type>
 		<base_points>15</base_points>
@@ -2289,12 +2295,6 @@
 			<specialization compare="is">woodlands</specialization>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
-		<prereq_list all="yes">
-			<advantage_prereq has="yes">
-				<name compare="ends with">Elf</name>
-				<notes compare="is anything"></notes>
-			</advantage_prereq>
-		</prereq_list>
 	</advantage>
 	<advantage version="2">
 		<name>Frightens Animals</name>
@@ -4052,7 +4052,7 @@
 		</categories>
 		<spell_bonus>
 			<college_name compare="is">Druid</college_name>
-			<amount>1</amount>
+			<amount per_level="yes">1</amount>
 		</spell_bonus>
 	</advantage>
 	<advantage version="2">

@@ -29,6 +29,24 @@
 		</categories>
 	</advantage>
 	<advantage version="2">
+		<name>@Mental Quirk@</name>
+		<type>Mental</type>
+		<base_points>-1</base_points>
+		<reference>B162</reference>
+		<categories>
+			<category>Quirk</category>
+		</categories>
+	</advantage>
+	<advantage version="2">
+		<name>@Physical Quirk@</name>
+		<type>Physical</type>
+		<base_points>-1</base_points>
+		<reference>B164</reference>
+		<categories>
+			<category>Quirk</category>
+		</categories>
+	</advantage>
+	<advantage version="2">
 		<name>Absent-Mindedness</name>
 		<type>Mental</type>
 		<base_points>-15</base_points>
@@ -55,26 +73,31 @@
 			<skill_bonus>
 				<name compare="starts with">piloting</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">aerobatics</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>2</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">free fall</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>2</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">navigation</name>
 				<specialization compare="is">hyperspace</specialization>
+				<category compare="is anything"></category>
 				<amount>2</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">navigation</name>
 				<specialization compare="is">space</specialization>
+				<category compare="is anything"></category>
 				<amount>2</amount>
 			</skill_bonus>
 		</modifier>
@@ -85,21 +108,25 @@
 		<skill_bonus>
 			<name compare="is">body sense</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>3</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">navigation</name>
 			<specialization compare="is">air</specialization>
+			<category compare="is anything"></category>
 			<amount>3</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">navigation</name>
 			<specialization compare="is">land</specialization>
+			<category compare="is anything"></category>
 			<amount>3</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">navigation</name>
 			<specialization compare="is">sea</specialization>
+			<category compare="is anything"></category>
 			<amount>3</amount>
 		</skill_bonus>
 	</advantage>
@@ -1211,6 +1238,7 @@
 		<skill_bonus>
 			<name compare="is">climbing</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>2</amount>
 		</skill_bonus>
 	</advantage>
@@ -1264,11 +1292,13 @@
 		<skill_bonus>
 			<name compare="is">psychology</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-3</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">teaching</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-3</amount>
 		</skill_bonus>
 	</advantage>
@@ -1414,21 +1444,25 @@
 		<skill_bonus>
 			<name compare="is">fortune-telling</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">leadership</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">panhandling</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">public speaking</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 	</advantage>
@@ -2107,6 +2141,7 @@
 		<skill_bonus>
 			<name compare="starts with">savoir-faire</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-4</amount>
 		</skill_bonus>
 	</advantage>
@@ -2216,31 +2251,37 @@
 		<skill_bonus>
 			<name compare="contains">artist</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="contains">chemistry</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="contains">driving</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">merchant</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="contains">piloting</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="contains">tracking</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-1</amount>
 		</skill_bonus>
 	</advantage>
@@ -2265,6 +2306,7 @@
 		<skill_bonus>
 			<name compare="starts with">fast-draw</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>1</amount>
 		</skill_bonus>
 		<attribute_bonus>
@@ -3408,11 +3450,13 @@
 		<skill_bonus>
 			<name compare="is">disguise</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">shadowing</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-1</amount>
 		</skill_bonus>
 	</advantage>
@@ -3436,31 +3480,37 @@
 		<skill_bonus>
 			<name compare="is">diplomacy</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-2</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">fast-talk</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-2</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">performance</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-2</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">public speaking</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-2</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">sex appeal</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-2</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">singing</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-2</amount>
 		</skill_bonus>
 		<prereq_list all="yes">
@@ -3807,11 +3857,13 @@
 		<skill_bonus>
 			<name compare="is">disguise</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-2</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">shadowing</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-2</amount>
 		</skill_bonus>
 		<attribute_bonus>
@@ -3873,6 +3925,7 @@
 		<skill_bonus>
 			<name compare="is">disguise</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>4</amount>
 		</skill_bonus>
 	</advantage>
@@ -3902,16 +3955,19 @@
 		<skill_bonus>
 			<name compare="is">detect lies</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>3</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">fortune-telling</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>3</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">psychology</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>3</amount>
 		</skill_bonus>
 	</advantage>
@@ -3932,16 +3988,19 @@
 		<skill_bonus>
 			<name compare="is">detect lies</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">fortune-telling</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">psychology</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>1</amount>
 		</skill_bonus>
 	</advantage>
@@ -4367,6 +4426,7 @@
 		<skill_bonus>
 			<name compare="contains">fast-draw</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>1</amount>
 		</skill_bonus>
 		<attribute_bonus>
@@ -4419,7 +4479,7 @@
 		</categories>
 	</advantage>
 	<advantage version="2">
-		<name>Epilipsy</name>
+		<name>Epilepsy</name>
 		<type>Physical</type>
 		<base_points>-30</base_points>
 		<reference>B136</reference>
@@ -4736,16 +4796,19 @@
 		<skill_bonus>
 			<name compare="is">disguise</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-2</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">shadowing</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-2</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">swimming</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>3</amount>
 		</skill_bonus>
 		<prereq_list all="yes">
@@ -4875,16 +4938,19 @@
 		<skill_bonus>
 			<name compare="is">climbing</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>3</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">escape</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>3</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">erotic art</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>3</amount>
 		</skill_bonus>
 	</advantage>
@@ -4899,16 +4965,19 @@
 		<skill_bonus>
 			<name compare="is">climbing</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>5</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">escape</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>5</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">erotic art</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>5</amount>
 		</skill_bonus>
 	</advantage>
@@ -5137,11 +5206,13 @@
 		<skill_bonus>
 			<name compare="is">disguise</name>
 			<specialization compare="is not">animals</specialization>
+			<category compare="is anything"></category>
 			<amount>-2</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">shadowing</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-2</amount>
 		</skill_bonus>
 		<attribute_bonus>
@@ -5216,6 +5287,7 @@
 		<skill_bonus>
 			<name compare="is">merchant</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-3</amount>
 		</skill_bonus>
 		<prereq_list all="yes">
@@ -5256,61 +5328,73 @@
 		<skill_bonus>
 			<name compare="contains">artist</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-3</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">jeweler</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-3</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">knot-tying</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-3</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">leatherworking</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-3</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">lockpicking</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-3</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">pickpocket</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-3</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">sewing</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-3</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">sleight of hand</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-3</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">surgery</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-3</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">machinist</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-3</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="contains">mechanic</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-3</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="contains">fast-draw</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-3</amount>
 		</skill_bonus>
 		<prereq_list all="yes">
@@ -5331,61 +5415,73 @@
 		<skill_bonus>
 			<name compare="contains">artist</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-6</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">jeweler</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-6</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">knot-tying</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-6</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">leatherworking</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-6</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">lockpicking</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-6</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">pickpocket</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-6</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">sewing</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-6</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">sleight of hand</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-6</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">surgery</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-6</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="contains">fast-draw</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-6</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">machinist</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-6</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="contains">mechanic</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-6</amount>
 		</skill_bonus>
 		<prereq_list all="yes">
@@ -5633,56 +5729,67 @@
 		<skill_bonus>
 			<name compare="contains">artist</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">jeweler</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">knot-tying</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">leatherworking</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">lockpicking</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">pickpocket</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">sewing</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">sleight of hand</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">surgery</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">machinist</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="contains">mechanic</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 	</advantage>
@@ -5782,11 +5889,13 @@
 		<skill_bonus>
 			<name compare="is">disguise</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-3</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">shadowing</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-3</amount>
 		</skill_bonus>
 	</advantage>
@@ -5906,6 +6015,7 @@
 		<skill_bonus>
 			<name compare="is">@Skill@</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-4</amount>
 		</skill_bonus>
 	</advantage>
@@ -8847,21 +8957,25 @@
 		<skill_bonus>
 			<name compare="is">carousing</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-3</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="contains">connoisseur</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-3</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">erotic art</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-3</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">gambling</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-3</amount>
 		</skill_bonus>
 	</advantage>
@@ -9258,81 +9372,97 @@
 		<skill_bonus>
 			<name compare="is">acting</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-3</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">carousing</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-3</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">criminology</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-3</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">detect lies</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-3</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">diplomacy</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-3</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">enthrallment</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-3</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">fast-talk</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-3</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">interrogation</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-3</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">leadership</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-3</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">merchant</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-3</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">politics</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-3</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="contains">psychology</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-3</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="contains">savoir-faire</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-3</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">sex appeal</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-3</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">sociology</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-3</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">streetwise</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-3</amount>
 		</skill_bonus>
 		<prereq_list all="yes">
@@ -9418,12 +9548,6 @@
 		<categories>
 			<category>Advantage</category>
 		</categories>
-		<prereq_list all="yes">
-			<advantage_prereq has="no">
-				<name compare="starts with">Luck</name>
-				<notes compare="is anything"></notes>
-			</advantage_prereq>
-		</prereq_list>
 	</advantage>
 	<advantage version="2">
 		<name>Luck, Extraordinary</name>
@@ -9459,12 +9583,6 @@
 		<categories>
 			<category>Advantage</category>
 		</categories>
-		<prereq_list all="yes">
-			<advantage_prereq has="no">
-				<name compare="starts with">Luck</name>
-				<notes compare="is anything"></notes>
-			</advantage_prereq>
-		</prereq_list>
 	</advantage>
 	<advantage version="2">
 		<name>Luck, Ridiculous</name>
@@ -9500,23 +9618,11 @@
 		<categories>
 			<category>Advantage</category>
 		</categories>
-		<prereq_list all="yes">
-			<advantage_prereq has="no">
-				<name compare="starts with">Luck</name>
-				<notes compare="is anything"></notes>
-			</advantage_prereq>
-		</prereq_list>
 	</advantage>
 	<advantage version="2">
 		<name>Luck, Super</name>
 		<type>Mental, Supernatural</type>
 		<base_points>100</base_points>
-		<modifier version="1" enabled="no">
-			<name>Active</name>
-			<cost type="percentage">-40</cost>
-			<affects>total</affects>
-			<reference>B66</reference>
-		</modifier>
 		<modifier version="1" enabled="no">
 			<name>Aspected</name>
 			<cost type="percentage">-20</cost>
@@ -9554,12 +9660,6 @@
 		<categories>
 			<category>Advantage</category>
 		</categories>
-		<prereq_list all="yes">
-			<advantage_prereq has="yes">
-				<name compare="starts with">Luck</name>
-				<notes compare="is anything"></notes>
-			</advantage_prereq>
-		</prereq_list>
 	</advantage>
 	<advantage version="2">
 		<name>Lunacy</name>
@@ -9623,10 +9723,12 @@
 		</categories>
 		<spell_bonus all_colleges="yes">
 			<amount per_level="yes">1</amount>
+			<category compare="is anything"></category>
 		</spell_bonus>
 		<skill_bonus>
 			<name compare="is">thaumatology</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 	</advantage>
@@ -10559,71 +10661,85 @@
 		<skill_bonus>
 			<name compare="is">artist</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-6</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">jeweler</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-6</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">knot-tying</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-6</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">leatherworking</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-6</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">lockpicking</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-6</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">pickpocket</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-6</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">sewing</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-6</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">sleight of hand</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-6</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">surgery</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-6</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">acting</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-6</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">leadership</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-6</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">performance</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-6</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">pubic speaking</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-6</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">sex appeal</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-6</amount>
 		</skill_bonus>
 	</advantage>
@@ -10638,71 +10754,85 @@
 		<skill_bonus>
 			<name compare="is">artist</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-2</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">jeweler</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-2</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">knot-tying</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-2</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">leatherworking</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-2</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">lockpicking</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-2</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">pickpocket</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-2</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">sewing</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-2</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">sleight of hand</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-2</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">surgery</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-2</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">acting</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-2</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">leadership</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-2</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">performance</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-2</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">pubic speaking</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-2</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">sex appeal</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-2</amount>
 		</skill_bonus>
 	</advantage>
@@ -10717,71 +10847,85 @@
 		<skill_bonus>
 			<name compare="is">artist</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-4</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">jeweler</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-4</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">knot-tying</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-4</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">leatherworking</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-4</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">lockpicking</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-4</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">pickpocket</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-4</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">sewing</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-4</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">sleight of hand</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-4</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">surgery</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-4</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">acting</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-4</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">leadership</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-4</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">performance</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-4</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">pubic speaking</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-4</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">sex appeal</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-4</amount>
 		</skill_bonus>
 	</advantage>
@@ -11090,6 +11234,7 @@
 		<skill_bonus>
 			<name compare="is">stealth</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">-2</amount>
 		</skill_bonus>
 	</advantage>
@@ -11145,31 +11290,37 @@
 		<skill_bonus>
 			<name compare="is">diplomacy</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">fast-talk</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">intimidation</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="starts with">savoir-faire</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">sex appeal</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">streetwise</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-1</amount>
 		</skill_bonus>
 	</advantage>
@@ -11361,16 +11512,19 @@
 		<skill_bonus>
 			<name compare="is">disguise</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">shadowing</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">swimming</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>1</amount>
 		</skill_bonus>
 	</advantage>
@@ -11699,16 +11853,19 @@
 		<skill_bonus>
 			<name compare="starts with">piloting</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">acrobatics</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">climbing</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>1</amount>
 		</skill_bonus>
 	</advantage>
@@ -13551,76 +13708,91 @@
 			<skill_bonus>
 				<name compare="is">acting</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">carousing</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">diplomacy</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">fast-talk</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">intimidation</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">leadership</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">merchant</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">panhandling</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">performance</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">politics</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">public speaking</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="contains">savoir-faire</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">sex appeal</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">streetwise</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">teaching</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-1</amount>
 			</skill_bonus>
 		</modifier>
@@ -13632,76 +13804,91 @@
 			<skill_bonus>
 				<name compare="is">acting</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-2</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">carousing</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-2</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">diplomacy</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-2</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">fast-talk</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-2</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">intimidation</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-2</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">leadership</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-2</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">merchant</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-2</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">panhandling</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-2</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">performance</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-2</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">politics</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-2</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">public speaking</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-2</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="contains">savoir-faire</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-2</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">sex appeal</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-2</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">streetwise</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-2</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">teaching</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-2</amount>
 			</skill_bonus>
 		</modifier>
@@ -13713,76 +13900,91 @@
 			<skill_bonus>
 				<name compare="is">acting</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-4</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">carousing</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-4</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">diplomacy</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-4</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">fast-talk</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-4</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">intimidation</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-4</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">leadership</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-4</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">merchant</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-4</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">panhandling</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-4</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">performance</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-4</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">politics</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-4</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">public speaking</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-4</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="contains">savoir-faire</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-4</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">sex appeal</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-4</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">streetwise</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-4</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">teaching</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-4</amount>
 			</skill_bonus>
 		</modifier>
@@ -13898,6 +14100,7 @@
 		<skill_bonus>
 			<name compare="is">stealth</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>2</amount>
 		</skill_bonus>
 	</advantage>
@@ -13922,11 +14125,13 @@
 		<skill_bonus>
 			<name compare="is">disguise</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-2</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">shadowing</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-2</amount>
 		</skill_bonus>
 		<prereq_list all="yes">
@@ -13996,6 +14201,7 @@
 		<skill_bonus>
 			<name compare="is">escape</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 	</advantage>
@@ -14247,6 +14453,7 @@
 		<skill_bonus>
 			<name compare="is">@Skill@</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-1</amount>
 		</skill_bonus>
 	</advantage>
@@ -14282,6 +14489,7 @@
 		<skill_bonus>
 			<name compare="is">intimidation</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>1</amount>
 		</skill_bonus>
 	</advantage>
@@ -14903,31 +15111,37 @@
 		<skill_bonus>
 			<name compare="is">diplomacy</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-2</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">fast-talk</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-2</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">performance</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-2</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">public speaking</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-2</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">sex appeal</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-2</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">singing</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-2</amount>
 		</skill_bonus>
 	</advantage>
@@ -15201,86 +15415,103 @@
 		<skill_bonus>
 			<name compare="is">@skill01@</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">@skill02@</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">@skill03@</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">@skill04@</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">@skill05@</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">@skill06@</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">@skill07@</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">@skill08@</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">@skill09@</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">@skill10@</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">@skill11@</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">@skill12@</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">@skill13@</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">@skill14@</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">@skill15@</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">@skill16@</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">@skill17@</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 	</advantage>
@@ -15314,61 +15545,73 @@
 		<skill_bonus>
 			<name compare="is">@skill01@</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">@skill02@</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">@skill03@</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">@skill04@</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">@skill05@</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">@skill06@</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">@skill07@</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">@skill08@</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">@skill09@</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">@skill10@</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">@skill11@</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">@skill12@</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 	</advantage>
@@ -15402,31 +15645,37 @@
 		<skill_bonus>
 			<name compare="is">@skill1@</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">@skill2@</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">@skill3@</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">@skill4@</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">@skill5@</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">@skill6@</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 	</advantage>
@@ -15454,31 +15703,37 @@
 		<skill_bonus>
 			<name compare="contains">animal handling</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">falconry</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="contains">packing</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="contains">riding</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="contains">teamster</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="contains">veterinary</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 	</advantage>
@@ -15501,46 +15756,55 @@
 		<skill_bonus>
 			<name compare="is">Armoury</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Carpentry</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Electrician</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Electronics Repair</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Engineer</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Machinist</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Masonry</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Mechanic</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Smith</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 	</advantage>
@@ -15563,41 +15827,49 @@
 		<skill_bonus>
 			<name compare="is">Accounting</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Administration</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Economics</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Finance</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Gambling</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Market Analysis</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Merchant</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Propaganda</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 	</advantage>
@@ -15620,26 +15892,31 @@
 		<skill_bonus>
 			<name compare="is">Artist</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Jeweler</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Leatherworking</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Photography</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Sewing</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 	</advantage>
@@ -15668,26 +15945,31 @@
 		<skill_bonus>
 			<name compare="is">Biology</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Farming</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Gardening</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Herb Lore</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Naturalist</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 	</advantage>
@@ -15721,61 +16003,73 @@
 		<skill_bonus>
 			<name compare="is">Diagnosis</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Esoteric Medicine</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">First Aid</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Pharmacy</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Physician</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Physiology</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Psychology</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Surgery</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Veterinary</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is"></name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is"></name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is"></name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<prereq_list all="yes">
@@ -15817,56 +16111,67 @@
 		<skill_bonus>
 			<name compare="is">Diagnosis</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Esoteric Medicine</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">First Aid</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Pharmacy</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Physician</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Physiology</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Psychology</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Surgery</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Veterinary</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Electronics Operation</name>
 			<specialization compare="is">Medical</specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Expert Skill</name>
 			<specialization compare="is">Epidemiology</specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<prereq_list all="yes">
@@ -15907,41 +16212,49 @@
 		<skill_bonus>
 			<name compare="is">Accounting</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Astronomy</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Cryptography</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Engineer</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Finance</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Market Analysis</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Mathematics</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Physics</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 	</advantage>
@@ -15970,26 +16283,31 @@
 		<skill_bonus>
 			<name compare="is">Group Performance</name>
 			<specialization compare="is">Conducting</specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Musical Composition</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Musical Influence</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Musical Instrument</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Singing</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 	</advantage>
@@ -16023,36 +16341,43 @@
 		<skill_bonus>
 			<name compare="is">Camouflage</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Fishing</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Mimicry</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Naturalist</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Navigation</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Survival</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Tracking</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 	</advantage>
@@ -16086,86 +16411,103 @@
 		<skill_bonus>
 			<name compare="is">Acting</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Carousing</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Detect Lies</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Diplomacy</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Fast-Talk</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Intimidation</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Leadership</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Panhandling</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Politics</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Public Speaking</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Savoir-Faire</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Sex Appeal</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Streetwise</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is"></name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is"></name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is"></name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is"></name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 	</advantage>
@@ -16775,6 +17117,7 @@
 		<skill_bonus>
 			<name compare="is">fast talk</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-5</amount>
 		</skill_bonus>
 	</advantage>
@@ -17061,11 +17404,13 @@
 		<skill_bonus>
 			<name compare="is">disguise</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">-1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">shadowing</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">-1</amount>
 		</skill_bonus>
 	</advantage>
@@ -17127,16 +17472,19 @@
 		<skill_bonus>
 			<name compare="is">disguise</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-3</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">shadowing</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>-3</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">swimming</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>5</amount>
 		</skill_bonus>
 		<prereq_list all="yes">
@@ -17209,41 +17557,49 @@
 		<skill_bonus>
 			<name compare="is">diplomacy</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>2</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">fast-talk</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>2</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="starts with">mimicry</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>2</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">performance</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>2</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">politics</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>2</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">public speaking</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>2</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">sex appeal</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>2</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">singing</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>2</amount>
 		</skill_bonus>
 	</advantage>
